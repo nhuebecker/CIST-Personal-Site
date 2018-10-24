@@ -163,10 +163,6 @@
   background-color: #22292f;
 }
 
-.bg-grey-light {
-  background-color: #dae1e7;
-}
-
 .bg-white {
   background-color: #fff;
 }
@@ -703,6 +699,16 @@ button,
 }
 
 li {
-  margin-top: 0.75rem;
   list-style: none;
+  margin-top: 0.75rem;
+}
+
+#skills ul li {
+  margin-top: 0.75rem;
+  background-color: #dae1e7;
+  border-radius: 9999px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
 }

@@ -2639,6 +2639,16 @@ table {
 }
 
 li {
-  margin-top: .75rem;
   list-style: none;
+  margin-top: .75rem;
+}
+
+#skills ul li {
+  margin-top: .75rem;
+  background-color: #dae1e7;
+  border-radius: 9999px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
 }
