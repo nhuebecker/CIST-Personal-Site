@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "htmlhint": "0.10.1",
+    "prettier": "1.14.3"
+  },
+  "name": "personalsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx purgecss --css ./src/main.css --content  ./src/*.html  --out build/ && prettier --write ./build/main.css",
+    "build:html": "cp ./src/*.html ./build/",
+    "build:assets": "cp -r  ./src/assets ./build",
+    "build" : "rm -rf ./build/* && npm run build:css && npm run build:assets && npm run build:html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
